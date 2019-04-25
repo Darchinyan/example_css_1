@@ -1,0 +1,150 @@
+body{
+	background:url("../image/bg.jpg");
+	font-family:Arial;
+}
+#title{
+	left:10px;
+	top:30px;
+	height:69px;
+	width:610px;
+}
+#title h3{
+	margin:0px;
+	text-align:right;
+	color:#6B6B6B;
+	text-transform:uppercase;
+	font-weight:300;
+}
+#title h1{
+	
+	margin:0px;
+	color:#0B75AF;
+	text-transform:uppercase;
+	font-size:50px;
+	font-weight:300;
+}
+#menu{
+	margin-top:200px;
+	width:1050px;
+	height:85px;
+	
+}
+.menu_span{
+	position:relative;
+	display:block;
+	float:left;
+	height:85px;
+	width:170px;
+	border:1px solid black;
+	margin:0px;
+	padding:0px;
+	background:url("../image/overlay.png");
+}
+.menu_span:hover .black_bg{
+	height:170px;
+}
+.menu_span:hover p{
+	top:150px;
+}
+.menu_span:hover img{
+	height:170px;
+	width:170px;
+	left:0px;
+}
+.menu_span p{
+	top:25px;
+	position:absolute;
+	margin:0px;
+	left:0px;
+	height:60px;
+	width:170px;
+	-webkit-transition:top 0.3s;
+	z-index:999;
+
+}
+.big{
+	display:block;
+	margin-left:15px;
+	text-shadow:1px 1px 1px #000;
+	float:left;
+	color:white;
+	font-size:24px;
+	text-transform:uppercase;
+}
+.smol{
+	display:block;
+	color:#0B75AF;
+	font-size:10px;
+	float:left;
+	text-transform:uppercase;
+	margin-left:15px;
+	text-shadow:1px 1px 1px #000;
+}
+.black_bg{
+	position:absolute;
+	margin-top:85px;
+	height:0px;
+	background:#111;
+	width:170px;
+	-webkit-transition:height 0.3s;
+	
+}
+.beg_2{
+	position:absolute;
+	top:85px;
+	right:170px;
+	width:0px;
+	height:150px;
+	background:black;
+	overflow:hidden;
+	-webkit-transition:all 0.3s, 0.5s cubic-bezier(0, 0.51, 0.96,-0.9);
+	line-height:30px;
+}
+.beg_1{
+	position:absolute;
+	top:85px;
+	left:100%;
+	height:150px;
+	width:0px;
+	background:black;
+	overflow:hidden;
+	-webkit-transition:all 0.3s 0.5s cubic-bezier(0, 0.51, 0.96,-0.9);
+	line-height:30px;
+	
+	
+}
+.menu_span:hover .beg_1{
+	width:155px;
+	padding:20px 0px 0px 15px;
+}
+
+.beg_1 a{
+	display:block;
+	color:#0B75AF;
+	text-transform:uppercase;
+	text-decoration:none;
+	font-size:13px;
+	
+}
+.beg_2 a{
+	display:block;
+	color:#0B75AF;
+	text-transform:uppercase;
+	text-decoration:none;
+	font-size:13px;
+	
+}
+.menu_span:hover .beg_2{
+	width:155px;
+	padding:20px 0px 0px 15px;
+}
+
+
+.menu_span img{
+	position:absolute;
+	width:0px;
+	height:0px;
+	left:50%;
+	bottom:0px;
+	-webkit-transition:all 0.3s;
+}
